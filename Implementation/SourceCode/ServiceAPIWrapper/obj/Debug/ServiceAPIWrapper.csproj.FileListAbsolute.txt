@@ -1,0 +1,12 @@
+D:\MSDevelopment\IntelligIS\Implementation\SourceCode\ServiceAPIWrapper\bin\Debug\ServiceAPIWrapper.dll.config
+D:\MSDevelopment\IntelligIS\Implementation\SourceCode\ServiceAPIWrapper\bin\Debug\ServiceAPIWrapper.dll
+D:\MSDevelopment\IntelligIS\Implementation\SourceCode\ServiceAPIWrapper\bin\Debug\ServiceAPIWrapper.pdb
+D:\MSDevelopment\IntelligIS\Implementation\SourceCode\ServiceAPIWrapper\bin\Debug\Microsoft.Web.Infrastructure.dll
+D:\MSDevelopment\IntelligIS\Implementation\SourceCode\ServiceAPIWrapper\bin\Debug\Newtonsoft.Json.dll
+D:\MSDevelopment\IntelligIS\Implementation\SourceCode\ServiceAPIWrapper\bin\Debug\System.Web.Optimization.dll
+D:\MSDevelopment\IntelligIS\Implementation\SourceCode\ServiceAPIWrapper\bin\Debug\Microsoft.Web.Infrastructure.xml
+D:\MSDevelopment\IntelligIS\Implementation\SourceCode\ServiceAPIWrapper\obj\Debug\ServiceAPIWrapper.dll
+D:\MSDevelopment\IntelligIS\Implementation\SourceCode\ServiceAPIWrapper\obj\Debug\ServiceAPIWrapper.pdb
+D:\MSDevelopment\IntelligIS\Implementation\SourceCode\ServiceAPIWrapper\bin\Debug\WebGrease.dll
+D:\MSDevelopment\IntelligIS\Implementation\SourceCode\ServiceAPIWrapper\bin\Debug\Newtonsoft.Json.xml
+D:\MSDevelopment\IntelligIS\Implementation\SourceCode\ServiceAPIWrapper\obj\Debug\ServiceAPIWrapper.csprojResolveAssemblyReference.cache

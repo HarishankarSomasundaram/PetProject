@@ -1,0 +1,8 @@
+﻿* {
+ -webkit-print-color-adjust: exact;
+ print-color-adjust: exact;
+}
+table
+{
+    border:none; background:red !important;
+}

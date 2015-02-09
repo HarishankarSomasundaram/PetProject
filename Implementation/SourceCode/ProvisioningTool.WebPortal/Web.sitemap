@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+  <siteMapNode url="~/App/Main.aspx" title="Home"  description="Home">
+    <siteMapNode url="~/App/Masters/CustomerInfo.aspx" title="Customers"  description="Customers" />
+    <siteMapNode url="~/App/Users.aspx" title="Users"  description="Users" />
+    <siteMapNode url="~/App/Settings.aspx" title="Settings"  description="Settings">
+      <siteMapNode url="/App/Controls.aspx?menu=SystemLocale" title="System-Locale"  description="System-Locale">
+        <siteMapNode url="/App/Controls.aspx?trans=1&amp;ucPath=Global&amp;tabName=Cities&amp;hidglobal=1&amp;menu=SystemLocale&amp;types=undefined&amp;models=undefined" title="Cities"  description="Cities"/>
+        <siteMapNode url="/App/Controls.aspx?trans=1&amp;ucPath=Global&amp;tabName=States&amp;hidglobal=1&amp;menu=SystemLocale&amp;types=undefined&amp;models=undefined" title="States"  description="States"/>
+        <siteMapNode url="/App/Controls.aspx?trans=1&amp;ucPath=Global&amp;tabName=Countries&amp;hidglobal=1&amp;menu=SystemLocale&amp;types=undefined&amp;models=undefined" title="Countries"  description="Countries"/>
+      </siteMapNode>
+      <siteMapNode url="/App/Controls.aspx?menu=SystemUser" title="System-User"  description="System-User">
+        <siteMapNode url="/App/Controls.aspx?trans=1&amp;ucPath=Global&amp;tabName=Titles&amp;hidglobal=1&amp;menu=SystemUser&amp;types=undefined&amp;models=undefined" title="Titles"  description="Titles" />
+        <siteMapNode url="/App/Controls.aspx?trans=1&amp;ucPath=Global&amp;tabName=Departments&amp;hidglobal=1&amp;menu=SystemUser&amp;types=undefined&amp;models=undefined" title="Departments"  description="Departments" />
+      </siteMapNode>
+      <siteMapNode url="/App/Controls.aspx?menu=Hardware" title="Hardware"  description="Hardware">
+        
+        <siteMapNode url="/App/ControlModels.aspx?tabName=Workstations&amp;menu=Workstations&amp;types=undefined&amp;models=undefined" title="Workstations"  description="Workstations">
+          <siteMapNode url="/App/ControlModels.aspx?trans=1&amp;ucPath=Global&amp;tabName=Workstation-Manufacturers&amp;hidglobal=1&amp;menu=Workstations&amp;types=undefined&amp;models=undefined" title="Manufacturers"  description="Manufacturers" />
+          <siteMapNode url="/App/ControlModels.aspx?trans=1&amp;ucPath=Global&amp;tabName=Workstation-Types&amp;hidglobal=1&amp;menu=Workstations&amp;types=Workstation-Manufacturers&amp;models=undefined" title="Types"  description="Types" />
+          <siteMapNode url="/App/ControlModels.aspx?trans=1&amp;ucPath=Global&amp;tabName=Workstation-Models&amp;hidglobal=1&amp;menu=Workstations&amp;types=Workstation-Manufacturers&amp;models=Workstation-Types" title="Models"  description="Models" />
+        </siteMapNode>
+
+        <siteMapNode url="/App/ControlModels.aspx?tabName=Router&amp;menu=Router&amp;types=undefined&amp;models=undefined" title="Router"  description="Router">
+          <siteMapNode url="/App/ControlModels.aspx?trans=1&amp;ucPath=Global&amp;tabName=Router-Manufacturers&amp;hidglobal=1&amp;menu=Router&amp;types=undefined&amp;models=undefined" title="Manufacturers"  description="Manufacturers" />
+          <siteMapNode url="/App/ControlModels.aspx?trans=1&amp;ucPath=Global&amp;tabName=Router-Models&amp;hidglobal=1&amp;menu=Router&amp;types=undefined&amp;models=undefined" title="Models"  description="Models" />
+          <siteMapNode url="/App/ControlModels.aspx?trans=1&amp;ucPath=Global&amp;tabName=Router-Modules&amp;hidglobal=1&amp;menu=Router&amp;types=undefined&amp;models=undefined" title="Modules"  description="Modules" />
+          <siteMapNode url="/App/ControlModels.aspx?trans=1&amp;ucPath=Global&amp;tabName=Router-OS-Versions&amp;hidglobal=1&amp;menu=Router&amp;types=undefined&amp;models=undefined" title="OS versions"  description="OS versions" />
+        </siteMapNode>
+
+        <siteMapNode url="/App/ControlModels.aspx?tabName=Firewall&amp;menu=Firewall&amp;types=undefined&amp;models=undefined" title="Firewall"  description="Firewall">
+          <siteMapNode url="/App/ControlModels.aspx?trans=1&amp;ucPath=Global&amp;tabName=Firewall-Manufacturers&amp;hidglobal=1&amp;menu=Firewall&amp;types=undefined&amp;models=undefined" title="Manufacturers"  description="Manufacturers" />
+          <siteMapNode url="/App/ControlModels.aspx?trans=1&amp;ucPath=Global&amp;tabName=Firewall-Models&amp;hidglobal=1&amp;menu=Firewall&amp;types=undefined&amp;models=undefined" title="Models"  description="Models" />
+          <siteMapNode url="/App/ControlModels.aspx?trans=1&amp;ucPath=Global&amp;tabName=Firewall-Modules&amp;hidglobal=1&amp;menu=Firewall&amp;types=undefined&amp;models=undefined" title="Modules"  description="Modules" />
+          <siteMapNode url="/App/ControlModels.aspx?trans=1&amp;ucPath=Global&amp;tabName=Firewall-OS-Versions&amp;hidglobal=1&amp;menu=Firewall&amp;types=undefined&amp;models=undefined" title="OS Versions"  description="OS Versions" />
+        </siteMapNode>
+
+        <siteMapNode url="/App/ControlModels.aspx?tabName=PhoneSystem&amp;menu=PhoneSystem&amp;types=undefined&amp;models=undefined" title="Phone System"  description="Phone System">
+          <siteMapNode url="/App/ControlModels.aspx?trans=1&amp;ucPath=Global&amp;tabName=Phone-System-Manufacturers&amp;hidglobal=1&amp;menu=PhoneSystem&amp;types=undefined&amp;models=undefined" title="Manufacturers"  description="Manufacturers" />
+          <siteMapNode url="/App/ControlModels.aspx?trans=1&amp;ucPath=Global&amp;tabName=Phone-System-Models&amp;hidglobal=1&amp;menu=PhoneSystem&amp;types=undefined&amp;models=undefined" title="Models"  description="Models" />
+          <siteMapNode url="/App/ControlModels.aspx?trans=1&amp;ucPath=Global&amp;tabName=Phone-System-Modules&amp;hidglobal=1&amp;menu=PhoneSystem&amp;types=undefined&amp;models=undefined" title="Modules"  description="Modules" />
+          <siteMapNode url="/App/ControlModels.aspx?trans=1&amp;ucPath=Global&amp;tabName=Phone-System-OS-Versions&amp;hidglobal=1&amp;menu=PhoneSystem&amp;types=undefined&amp;models=undefined" title="OS versions"  description="OS Versions" />
+        </siteMapNode>
+
+        <siteMapNode url="/App/ControlModels.aspx?tabName=Phone&amp;menu=Phone&amp;types=undefined&amp;models=undefined" title="Phone"  description="Phone" >
+          <siteMapNode url="/App/ControlModels.aspx?trans=1&amp;ucPath=Global&amp;tabName=Phone-Manufacturers&amp;hidglobal=1&amp;menu=Phone&amp;types=undefined&amp;models=undefined" title="Manufacturers"  description="Manufacturers" />
+          <siteMapNode url="/App/ControlModels.aspx?trans=1&amp;ucPath=Global&amp;tabName=Phone-Models&amp;hidglobal=1&amp;menu=Phone&amp;types=undefined&amp;models=undefined" title="Models"  description="Models" />
+          <siteMapNode url="/App/ControlModels.aspx?trans=1&amp;ucPath=Global&amp;tabName=Phone-Modules&amp;hidglobal=1&amp;menu=Phone&amp;types=undefined&amp;models=undefined" title="Modules"  description="Modules" />
+          <siteMapNode url="/App/ControlModels.aspx?trans=1&amp;ucPath=Global&amp;tabName=Phone-OS-Versions&amp;hidglobal=1&amp;menu=Phone&amp;types=undefined&amp;models=undefined" title="OS Versions"  description="OS Versions" />
+        </siteMapNode>
+        
+        <siteMapNode url="/App/ControlModels.aspx?tabName=MobileDevice&amp;menu=MobileDevice&amp;types=undefined&amp;models=undefined" title="MobileDevice"  description="MobileDevice">
+          <siteMapNode url="/App/ControlModels.aspx?trans=1&amp;ucPath=Global&amp;tabName=Mobile-Device-Manufacturers&amp;hidglobal=1&amp;menu=MobileDevice&amp;types=undefined&amp;models=undefined" title="Manufacturers"  description="Manufacturers" />
+          <siteMapNode url="/App/ControlModels.aspx?trans=1&amp;ucPath=Global&amp;tabName=Mobile-Device-Types&amp;hidglobal=1&amp;menu=MobileDevice&amp;types=Mobile-Device-Manufacturers&amp;models=undefined" title="Types"  description="Types" />
+          <siteMapNode url="/App/ControlModels.aspx?trans=1&amp;ucPath=Global&amp;tabName=Mobile-Device-Models&amp;hidglobal=1&amp;menu=MobileDevice&amp;types=Mobile-Device-Manufacturers&amp;models=Mobile-Device-Types" title="Models"  description="Models" />
+        </siteMapNode>
+        <siteMapNode url="/App/ControlModels.aspx?tabName=Servers&amp;menu=Servers&amp;types=undefined&amp;models=undefined" title="Servers"  description="Servers">
+          <siteMapNode url="/App/ControlModels.aspx?trans=1&amp;ucPath=Global&amp;tabName=Server-Manufacturers&amp;hidglobal=1&amp;menu=Servers&amp;types=undefined&amp;models=undefined" title="Manufacturers"  description="Manufactures" />
+          <siteMapNode url="/App/ControlModels.aspx?trans=1&amp;ucPath=Global&amp;tabName=Server-Types&amp;hidglobal=1&amp;menu=Servers&amp;types=Server-Manufacturers&amp;models=undefined" title="Types"  description="Types" />
+          <siteMapNode url="/App/ControlModels.aspx?trans=1&amp;ucPath=Global&amp;tabName=Server-Models&amp;hidglobal=1&amp;menu=Servers&amp;types=Server-Manufacturers&amp;models=Server-Types" title="Models"  description="Models" />
+        </siteMapNode>
+
+        <siteMapNode url="/App/ControlModels.aspx?tabName=Laptops&amp;menu=Laptops&amp;types=undefined&amp;models=undefined" title="Laptops"  description="Laptops">
+          <siteMapNode url="/App/ControlModels.aspx?trans=1&amp;ucPath=Global&amp;tabName=Laptop-Manufacturers&amp;hidglobal=1&amp;menu=Laptops&amp;types=undefined&amp;models=undefined" title="Manufacturers"  description="Manufacturers" />
+          <siteMapNode url="/App/ControlModels.aspx?trans=1&amp;ucPath=Global&amp;tabName=Laptop-Types&amp;hidglobal=1&amp;menu=Laptops&amp;types=Laptop-Manufacturers&amp;models=undefined" title="Types"  description="Types" />
+          <siteMapNode url="/App/ControlModels.aspx?trans=1&amp;ucPath=Global&amp;tabName=Laptop-Models&amp;hidglobal=1&amp;menu=Laptops&amp;types=Laptop-Manufacturers&amp;models=Laptop-Types" title="Models"  description="Models" />
+        </siteMapNode>
+        <siteMapNode url="/App/ControlModels.aspx?tabName=Printer&amp;menu=Printer&amp;types=undefined&amp;models=undefined" title="Printer"  description="Printer">
+          <siteMapNode url="/App/ControlModels.aspx?trans=1&amp;ucPath=Global&amp;tabName=Printer-Manufacturers&amp;hidglobal=1&amp;menu=Printer&amp;types=undefined&amp;models=undefined" title="Manufacturers"  description="Manufacturers" />
+          <siteMapNode url="/App/ControlModels.aspx?trans=1&amp;ucPath=Global&amp;tabName=Printer-Models&amp;hidglobal=1&amp;menu=Printer&amp;types=undefined&amp;models=undefined" title="Models"  description="Models" />
+          <siteMapNode url="/App/ControlModels.aspx?trans=1&amp;ucPath=Global&amp;tabName=Printer-Modules&amp;hidglobal=1&amp;menu=Printer&amp;types=undefined&amp;models=undefined" title="Modules"  description="Modules" />
+          <siteMapNode url="/App/ControlModels.aspx?trans=1&amp;ucPath=Global&amp;tabName=Printer-OS-Versions&amp;hidglobal=1&amp;menu=Printer&amp;types=undefined&amp;models=undefined" title="OS Versions"  description="OS Versions" />
+        </siteMapNode>
+        <siteMapNode url="/App/ControlModels.aspx?tabName=Wireless&amp;menu=Wireless&amp;types=undefined&amp;models=undefined" title="Wireless"  description="Wireless">
+          <siteMapNode url="/App/ControlModels.aspx?trans=1&amp;ucPath=Global&amp;tabName=Wireless-Manufacturers&amp;hidglobal=1&amp;menu=Wireless&amp;types=undefined&amp;models=undefined" title="Manufacturers"  description="Manufacturers" />
+          <siteMapNode url="/App/ControlModels.aspx?trans=1&amp;ucPath=Global&amp;tabName=Wireless-Types&amp;hidglobal=1&amp;menu=Wireless&amp;types=Wireless-Manufacturers&amp;models=undefined" title="Types"  description="Types" />
+          <siteMapNode url="/App/ControlModels.aspx?trans=1&amp;ucPath=Global&amp;tabName=Wireless-Models&amp;hidglobal=1&amp;menu=Wireless&amp;types=Wireless-Manufacturers&amp;models=Wireless-Types" title="Models"  description="Models" />
+        </siteMapNode>
+        <siteMapNode url="/App/ControlModels.aspx?tabName=NetworkSwitch&amp;menu=NetworkSwitch&amp;types=undefined&amp;models=undefined" title="NetworkSwitch"  description="NetworkSwitch">
+          <siteMapNode url="/App/ControlModels.aspx?trans=1&amp;ucPath=Global&amp;tabName=Network-Switch-Manufacturers&amp;hidglobal=1&amp;menu=NetworkSwitch&amp;types=undefined&amp;models=undefined" title="Manufacturers"  description="Manufacturers" />
+          <siteMapNode url="/App/ControlModels.aspx?trans=1&amp;ucPath=Global&amp;tabName=Network-Switch-Models&amp;hidglobal=1&amp;menu=NetworkSwitch&amp;types=undefined&amp;models=undefined" title="Models"  description="Models" />
+          <siteMapNode url="/App/ControlModels.aspx?trans=1&amp;ucPath=Global&amp;tabName=Network-Switch-Modules&amp;hidglobal=1&amp;menu=NetworkSwitch&amp;types=undefined&amp;models=undefined" title="Modules"  description="Modules" />
+          <siteMapNode url="/App/ControlModels.aspx?trans=1&amp;ucPath=Global&amp;tabName=Network-Switch-OS-Versions&amp;hidglobal=1&amp;menu=NetworkSwitch&amp;types=undefined&amp;models=undefined" title="OS Versions"  description="OS Versions" />
+        </siteMapNode>
+      </siteMapNode>
+      <siteMapNode url="/App/Controls.aspx?menu=Software" title="Software"  description="Software">
+          <siteMapNode url="/App/Controls.aspx?trans=1&amp;ucPath=Global&amp;tabName=Operating-Systems&amp;hidglobal=1&amp;menu=Software&amp;types=undefined&amp;models=undefined" title="Operating Systems"  description="Operating Systems" />
+          <siteMapNode url="/App/Controls.aspx?trans=1&amp;ucPath=Global&amp;tabName=Antivirus&amp;hidglobal=1&amp;menu=Software&amp;types=undefined&amp;models=undefined" title="Antivirus"  description="Antivirus" />
+          <siteMapNode url="/App/Controls.aspx?trans=1&amp;ucPath=Global&amp;tabName=Backup&amp;hidglobal=1&amp;menu=Software&amp;types=undefined&amp;models=undefined" title="Backup"  description="Backup" />
+          <siteMapNode url="/App/Controls.aspx?trans=1&amp;ucPath=Global&amp;tabName=Remote-Access&amp;hidglobal=1&amp;menu=Software&amp;types=undefined&amp;models=undefined" title="Remote Access"  description="Remote Access" />
+        <siteMapNode url="/App/ControlModels.aspx?tabName=Applications&amp;menu=Applications&amp;types=undefined&amp;models=undefined" title="Applications"  description="Applications">
+          <siteMapNode url="/App/ControlModels.aspx?trans=1&amp;ucPath=Global&amp;tabName=Email&amp;hidglobal=1&amp;menu=Applications&amp;types=undefined&amp;models=undefined" title="Email"  description="Email" />
+          <siteMapNode url="/App/ControlModels.aspx?trans=1&amp;ucPath=Global&amp;tabName=Accounting&amp;hidglobal=1&amp;menu=Applications&amp;types=undefined&amp;models=undefined" title="Accounting"  description="Accounting" />
+          <siteMapNode url="/App/ControlModels.aspx?trans=1&amp;ucPath=Global&amp;tabName=Productivity&amp;hidglobal=1&amp;menu=Applications&amp;types=undefined&amp;models=undefined" title="Productivity"  description="Productivity" />
+          <siteMapNode url="/App/ControlModels.aspx?trans=1&amp;ucPath=Global&amp;tabName=Cloud-Apps&amp;hidglobal=1&amp;menu=Applications&amp;types=undefined&amp;models=undefined" title="Cloud Apps"  description="Cloud Apps" />
+          <siteMapNode url="/App/ControlModels.aspx?trans=1&amp;ucPath=Global&amp;tabName=CRM-ERP&amp;hidglobal=1&amp;menu=Applications&amp;types=undefined&amp;models=undefined" title="CRM/ERP"  description="CRM/ERP" />
+          <siteMapNode url="/App/ControlModels.aspx?trans=1&amp;ucPath=Global&amp;tabName=Misc&amp;hidglobal=1&amp;menu=Applications&amp;types=undefined&amp;models=undefined" title="Misc"  description="Misc" />
+        </siteMapNode>
+      </siteMapNode>
+      <siteMapNode url="/App/Controls.aspx?menu=ServiceProvider" title="Service Providers"  description="Service Providers">
+          <siteMapNode url="/App/Controls.aspx?trans=1&amp;ucPath=Global&amp;tabName=Providers&amp;hidglobal=1&amp;menu=ServiceProvider&amp;types=undefined&amp;models=undefined" title="Providers"  description="Providers" />
+          <siteMapNode url="/App/Controls.aspx?trans=1&amp;ucPath=Global&amp;tabName=Provider-Types&amp;hidglobal=1&amp;menu=ServiceProvider&amp;types=undefined&amp;models=undefined" title="Provider Types"  description="Provider Types" />
+          <siteMapNode url="/App/Controls.aspx?trans=1&amp;ucPath=Global&amp;tabName=Circuit-Types&amp;hidglobal=1&amp;menu=ServiceProvider&amp;types=undefined&amp;models=undefined" title="Circuit Types"  description="Circuit Types" />
+      </siteMapNode>
+    </siteMapNode>
+    <siteMapNode url="~/App/CustomerSearch.aspx" title="Customer Sites"  description="Customer Sites" />
+    <siteMapNode url="~/App/CustomerSites.aspx" title="Customer Sites"  description="Customer Sites" />
+  </siteMapNode>
+</siteMap>

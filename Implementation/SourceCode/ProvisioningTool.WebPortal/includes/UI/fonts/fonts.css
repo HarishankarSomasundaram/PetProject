@@ -1,0 +1,21 @@
+/* CSS Document */
+@font-face {
+    font-family: 'source_sans_probold';
+        src: url('/includes/ui/fonts/SourceSansPro-Bold.eot');
+        src: url('/includes/ui/fonts/SourceSansPro-Bold.eot?#iefix') format('embedded-opentype'),
+        url('/includes/ui/fonts/SourceSansPro-Bold.svg#Source Sans Pro') format('svg'),
+        url('/includes/ui/fonts/SourceSansPro-Bold.woff') format('woff'),
+        url('/includes/ui/fonts/SourceSansPro-Bold.ttf') format('truetype');
+        font-weight: normal;
+        font-style: normal;
+    }
+@font-face {
+    font-family: 'source_sans_proregular';
+        src: url('/includes/ui/fonts/SourceSansPro-Regular.eot');
+        src: url('/includes/ui/fonts/SourceSansPro-Regular.eot?#iefix') format('embedded-opentype'),
+        url('/includes/ui/fonts/SourceSansPro-Regular.svg#Source Sans Pro') format('svg'),
+        url('/includes/ui/fonts/SourceSansPro-Regular.woff') format('woff'),
+        url('/includes/ui/fonts/SourceSansPro-Regular.ttf') format('truetype');
+        font-weight: normal;
+        font-style: normal;
+    }

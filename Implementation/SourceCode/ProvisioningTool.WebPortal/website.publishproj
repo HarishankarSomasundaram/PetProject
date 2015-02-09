@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+
+***********************************************************************************************
+website.publishproj
+
+WARNING: DO NOT MODIFY this file, it is used for the web publish process.
+
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+***********************************************************************************************
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.30319</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{f2fb4bd9-31cc-495f-a1a6-f6df28825378}</ProjectGuid>
+    <SourceWebPhysicalPath>$(MSBuildThisFileDirectory)</SourceWebPhysicalPath>
+    <SourceWebVirtualPath>/ProvisioningTool.WebPortal</SourceWebVirtualPath>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <SourceWebProject>http://localhost</SourceWebProject>
+    <SourceWebMetabasePath>/LM/W3SVC/10/ROOT</SourceWebMetabasePath>
+  </PropertyGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <!-- for VS2010 we need to use 10.5 but for VS2012+ we should use VisualStudioVersion -->
+    <WebPublishTargetsVersion Condition=" '$(WebPublishTargetsVersion)' =='' and '$(VisualStudioVersion)' == 10.0 ">10.5</WebPublishTargetsVersion>
+    <WebPublishTargetsVersion Condition=" '$(WebPublishTargetsVersion)'=='' ">$(VisualStudioVersion)</WebPublishTargetsVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(WebPublishTargetsVersion)</VSToolsPath>
+    <_WebPublishTargetsPath Condition=" '$(_WebPublishTargetsPath)'=='' ">$(VSToolsPath)</_WebPublishTargetsPath>
+    <AssemblyFileVersion Condition="'$(AssemblyFileVersion)' == ''">1.0.0.0</AssemblyFileVersion>
+    <AssemblyVersion Condition="'$(AssemblyVersion)' == ''">1.0.0.0</AssemblyVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AssemblyAttributes Include="AssemblyFileVersion">
+      <Value>$(AssemblyFileVersion)</Value>
+    </AssemblyAttributes>
+    <AssemblyAttributes Include="AssemblyVersion">
+      <Value>$(AssemblyVersion)</Value>
+    </AssemblyAttributes>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ProvisioningTool.APIWrapper\ServiceAPIWrapper.csproj">
+      <Project>{AA1830D8-F8F6-4090-8BC9-B439E6748817}</Project>
+      <Name>ServiceAPIWrapper</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ProvisioningTool.BLL\ProvisioningTool.BLL.csproj">
+      <Project>{2E7B89AF-6849-47A9-8A58-54C1E741CEB9}</Project>
+      <Name>ProvisioningTool.BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ProvisioningTool.Common\ProvisioningTool.Common.csproj">
+      <Project>{328BC8F0-8E1B-4246-867F-04769193DC7D}</Project>
+      <Name>ProvisioningTool.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ProvisioningTool.DAL\ProvisioningTool.DAL.csproj">
+      <Project>{E19126ED-9C72-4EB5-B22D-AFC29C95DE79}</Project>
+      <Name>ProvisioningTool.DAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ProvisioningTool.Entity\ProvisioningTool.Entity.csproj">
+      <Project>{CE5B1BA8-E498-4D8E-994D-F7718544A17C}</Project>
+      <Name>ProvisioningTool.Entity</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(_WebPublishTargetsPath)\Web\Microsoft.WebSite.Publishing.targets" />
+</Project>

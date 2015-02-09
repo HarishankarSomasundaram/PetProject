@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="ProvisioningToolServices.MasterService" CodeBehind="~/App_Code/MasterService.cs" Factory="System.ServiceModel.Activation.WebServiceHostFactory"  %>

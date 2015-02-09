@@ -1,0 +1,3 @@
+﻿"Company Name","Customer Code","Customer Name","Address","Phone Number","Email Address","Account Rep Name","Primary Engineer Name"
+"Techaffinity","C001","King Luther","Address","21231321321","test@test.com","Account Rep","Level 1"
+"Techaffinity","C002","Limo","Address","21231321321","test@test.com","Account Rep","Level 1"

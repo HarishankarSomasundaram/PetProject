@@ -1,0 +1,26 @@
+Package installation:
+
+1. web config 
+   <httpRuntime maxRequestLength="1048576" executionTimeout="3600" requestValidationMode="2.0" enableVersionHeader="false" maxUrlLength="1000" />
+
+2. package actions
+   <Action runat="Install" alias="publishRootDocument" documemtName="Millcentre" />
+
+3. Embedded Content , uComponent need to install
+
+4. Add key in webconfig for contact form validation in appsettings
+
+   <add key="ClientValidationEnabled" value="true" />
+   <add key="UnobtrusiveJavaScriptEnabled" value="true" />
+
+
+
+Need to done:
+
+1. Media folder images - Can't implemented in umbraco
+
+2. Install package to webform umbraco.
+
+
+   
+
